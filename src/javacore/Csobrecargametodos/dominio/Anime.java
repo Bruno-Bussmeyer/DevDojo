@@ -15,7 +15,6 @@ public class Anime {
     }
 
     public void init(String nome, String tipo, int episodios) {
-        this.nome = nome;
         this.tipo = tipo;
         this.episodios = episodios;
     }
@@ -31,5 +30,5 @@ public class Anime {
         System.out.println(this.nome);
         System.out.println(this.tipo);
         System.out.println(this.episodios);
-        System.out.println(this.genero);
+    }
 }

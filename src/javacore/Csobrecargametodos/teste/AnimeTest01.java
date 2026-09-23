@@ -7,6 +7,5 @@ public class AnimeTest01 {
         Anime anime = new Anime();
 
         anime.init( "One Piece","Aventura", 12);
-        anime.imprimir();
     }
 }
